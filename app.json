@@ -1,0 +1,32 @@
+{
+  "name": "nw6.js",
+  "scripts": {
+  },
+  "env": {
+    "JAVA_OPTS": {
+      "required": true
+    },
+    "JHIPSTER_PASSWORD": {
+      "required": true
+    },
+    "MAVEN_CUSTOM_OPTS": {
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
